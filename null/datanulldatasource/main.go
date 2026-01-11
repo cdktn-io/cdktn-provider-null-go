@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-null.dataNullDataSource.DataNullDataSource",
+		"@cdktn/provider-null.dataNullDataSource.DataNullDataSource",
 		reflect.TypeOf((*DataNullDataSource)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -64,7 +64,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-null.dataNullDataSource.DataNullDataSourceConfig",
+		"@cdktn/provider-null.dataNullDataSource.DataNullDataSourceConfig",
 		reflect.TypeOf((*DataNullDataSourceConfig)(nil)).Elem(),
 	)
 }

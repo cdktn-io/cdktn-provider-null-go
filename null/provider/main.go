@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-null.provider.NullProvider",
+		"@cdktn/provider-null.provider.NullProvider",
 		reflect.TypeOf((*NullProvider)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -44,7 +44,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-null.provider.NullProviderConfig",
+		"@cdktn/provider-null.provider.NullProviderConfig",
 		reflect.TypeOf((*NullProviderConfig)(nil)).Elem(),
 	)
 }

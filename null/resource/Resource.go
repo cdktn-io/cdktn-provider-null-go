@@ -5,10 +5,10 @@ package resource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-null-go/null/v11/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-null-go/null/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-null-go/null/v11/resource/internal"
+	"github.com/cdktn-io/cdktn-provider-null-go/null/v11/resource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -331,7 +331,7 @@ func NewResource(scope constructs.Construct, id *string, config *ResourceConfig)
 	j := jsiiProxy_Resource{}
 
 	_jsii_.Create(
-		"@cdktf/provider-null.resource.Resource",
+		"@cdktn/provider-null.resource.Resource",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -344,7 +344,7 @@ func NewResource_Override(r Resource, scope constructs.Construct, id *string, co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-null.resource.Resource",
+		"@cdktn/provider-null.resource.Resource",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -439,7 +439,7 @@ func Resource_GenerateConfigForImport(scope constructs.Construct, importToId *st
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-null.resource.Resource",
+		"@cdktn/provider-null.resource.Resource",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -474,7 +474,7 @@ func Resource_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-null.resource.Resource",
+		"@cdktn/provider-null.resource.Resource",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -493,7 +493,7 @@ func Resource_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-null.resource.Resource",
+		"@cdktn/provider-null.resource.Resource",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -512,7 +512,7 @@ func Resource_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-null.resource.Resource",
+		"@cdktn/provider-null.resource.Resource",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -525,7 +525,7 @@ func Resource_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-null.resource.Resource",
+		"@cdktn/provider-null.resource.Resource",
 		"tfResourceType",
 		&returns,
 	)

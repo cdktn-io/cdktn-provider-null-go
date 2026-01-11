@@ -5,10 +5,10 @@ package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-null-go/null/v11/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-null-go/null/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-null-go/null/v11/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-null-go/null/v11/provider/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -196,7 +196,7 @@ func NewNullProvider(scope constructs.Construct, id *string, config *NullProvide
 	j := jsiiProxy_NullProvider{}
 
 	_jsii_.Create(
-		"@cdktf/provider-null.provider.NullProvider",
+		"@cdktn/provider-null.provider.NullProvider",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -209,7 +209,7 @@ func NewNullProvider_Override(n NullProvider, scope constructs.Construct, id *st
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-null.provider.NullProvider",
+		"@cdktn/provider-null.provider.NullProvider",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -233,7 +233,7 @@ func NullProvider_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-null.provider.NullProvider",
+		"@cdktn/provider-null.provider.NullProvider",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -268,7 +268,7 @@ func NullProvider_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-null.provider.NullProvider",
+		"@cdktn/provider-null.provider.NullProvider",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -287,7 +287,7 @@ func NullProvider_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-null.provider.NullProvider",
+		"@cdktn/provider-null.provider.NullProvider",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -306,7 +306,7 @@ func NullProvider_IsTerraformProvider(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-null.provider.NullProvider",
+		"@cdktn/provider-null.provider.NullProvider",
 		"isTerraformProvider",
 		[]interface{}{x},
 		&returns,
@@ -319,7 +319,7 @@ func NullProvider_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-null.provider.NullProvider",
+		"@cdktn/provider-null.provider.NullProvider",
 		"tfResourceType",
 		&returns,
 	)
