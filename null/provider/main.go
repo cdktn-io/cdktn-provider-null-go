@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package provider
@@ -39,7 +39,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NullProvider{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformProvider)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformProvider)
 			return &j
 		},
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 // Package jsii contains the functionaility needed for jsii packages to
@@ -13,19 +13,19 @@ import (
 	_jsii_     "github.com/aws/jsii-runtime-go/runtime"
 
 	constructs "github.com/aws/constructs-go/constructs/v10/jsii"
-	cdktf      "github.com/hashicorp/terraform-cdk-go/cdktf/jsii"
+	cdktn      "github.com/open-constructs/cdk-terrain-go/cdktn/jsii"
 )
 
-//go:embed cdktn-provider-null-11.1.0.tgz
+//go:embed cdktn-provider-null-12.0.0.tgz
 var tarball []byte
 
 // Initialize loads the necessary packages in the @jsii/kernel to support the enclosing module.
 // The implementation is idempotent (and hence safe to be called over and over).
 func Initialize() {
 	// Ensure all dependencies are initialized
-	cdktf.Initialize()
+	cdktn.Initialize()
 	constructs.Initialize()
 
 	// Load this library into the kernel
-	_jsii_.Load("@cdktn/provider-null", "11.1.0", tarball)
+	_jsii_.Load("@cdktn/provider-null", "12.0.0", tarball)
 }
