@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4/docs null}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/null/3.3.0/docs null}.
 type NullProvider interface {
 	cdktn.TerraformProvider
 	Alias() *string
@@ -195,7 +195,7 @@ func (j *jsiiProxy_NullProvider) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4/docs null} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/null/3.3.0/docs null} Resource.
 func NewNullProvider(scope constructs.Construct, id *string, config *NullProviderConfig) NullProvider {
 	_init_.Initialize()
 
@@ -213,7 +213,7 @@ func NewNullProvider(scope constructs.Construct, id *string, config *NullProvide
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/null/3.2.4/docs null} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/null/3.3.0/docs null} Resource.
 func NewNullProvider_Override(n NullProvider, scope constructs.Construct, id *string, config *NullProviderConfig) {
 	_init_.Initialize()
 
