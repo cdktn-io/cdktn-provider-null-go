@@ -7,7 +7,7 @@ package provider
 type NullProviderConfig struct {
 	// Alias name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/null/3.3.0/docs#alias NullProvider#alias}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/null/3.3.1/docs#alias NullProvider#alias}
 	Alias *string `field:"optional" json:"alias" yaml:"alias"`
 }
 

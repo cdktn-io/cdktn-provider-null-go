@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/null/3.3.0/docs/resources/resource null_resource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/null/3.3.1/docs/resources/resource null_resource}.
 type Resource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -379,7 +379,7 @@ func (j *jsiiProxy_Resource) TriggersInput() *map[string]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/null/3.3.0/docs/resources/resource null_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/null/3.3.1/docs/resources/resource null_resource} Resource.
 func NewResource(scope constructs.Construct, id *string, config *ResourceConfig) Resource {
 	_init_.Initialize()
 
@@ -397,7 +397,7 @@ func NewResource(scope constructs.Construct, id *string, config *ResourceConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/null/3.3.0/docs/resources/resource null_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/null/3.3.1/docs/resources/resource null_resource} Resource.
 func NewResource_Override(r Resource, scope constructs.Construct, id *string, config *ResourceConfig) {
 	_init_.Initialize()
 
